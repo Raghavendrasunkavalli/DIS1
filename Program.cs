@@ -327,11 +327,11 @@ namespace Assignment1_Spring2021
             try
             {
 
-                string[] source = new string[paths.Length]; 
-                string[] destination = new string[paths.Length]; 
+                string[] source = new string[paths.Length];
+                string[] destination = new string[paths.Length];
                 for (int i = 0; i < 3; i++) // Creating source and destination array.
                 {
-                    source[i] = paths[i, 0]; 
+                    source[i] = paths[i, 0];
                     destination[i] = paths[i, 1];
                 }
                 for (int i = 0; i < 3; i++) // Comparing both the source array and destination array.
